@@ -17,7 +17,6 @@
 #include <unistd.h>
 #include <pthread.h>
 #include <semaphore.h>
-#include <ucontext.h>
 
 #ifdef HAVE_SYS_MMAN_H
 #include <sys/mman.h>
