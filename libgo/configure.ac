@@ -720,7 +720,7 @@ AC_RUN_IFELSE(
   [AC_LANG_SOURCE([
 #include <pthread.h>
 #include <stdlib.h>
-#include <ucontext.h>
+#include <signal.h>
 #include <unistd.h>
 
 __thread int tls;
