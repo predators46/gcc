@@ -17,7 +17,6 @@ package main
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <ucontext.h>
 
 void check_params(int signo, siginfo_t *info, void *context) {
 	ucontext_t* uc = (ucontext_t*)(context);
